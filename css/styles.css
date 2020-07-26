@@ -1,0 +1,88 @@
+:root {
+  --background: #ebf5ee;
+}
+
+body {
+  background-color: var(--background);
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+.header-gallery {
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+}
+
+.menu-gallery ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 15px 10px;
+  padding-right: 5px;
+}
+
+.menu-gallery ul li a {
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #45474a;
+  text-decoration: none;
+}
+
+.menu-gallery ul li a:hover {
+  color: green;
+}
+.menu-gallery ul li a.active {
+  color: green;
+}
+
+.content {
+  width: 100%;
+  display: inline-block;
+  padding: 80px 0;
+}
+
+.card {
+  width: 31%;
+  float: left;
+  margin: 1%;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card:hover .post-s {
+  width: 100%;
+}
+
+.post-s {
+  width: 0px;
+  height: 100%;
+  background: rgba(89, 131, 134, 0.71);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.1s ease;
+  top: 0;
+}
+
+@media only screen and (max-width: 700px) {
+  .card {
+    width: 48%;
+    float: left;
+    margin: 1%;
+    cursor: pointer;
+  }
+}
+
