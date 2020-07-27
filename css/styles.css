@@ -15,7 +15,14 @@ body {
 
 h1 {
   font-size: 2em;
+}
 
+.title {
+  display: flex;
+}
+
+.title img {
+  margin-left: .5em;
 }
 
 .header-gallery {
