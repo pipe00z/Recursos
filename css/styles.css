@@ -2,15 +2,25 @@
   --background: #ebf5ee;
 }
 
-body {
-  background-color: var(--background);
-}
-
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: var(--background);
+  font-family: "Roboto", sans-serif;
+}
+
+.resources {
+  margin-left: 2em;
+}
+
+h1 {
+  font-size: 2em;
+
 }
 
 .header-gallery {
