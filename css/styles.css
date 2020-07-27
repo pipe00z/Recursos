@@ -109,7 +109,7 @@ h1 {
 }
 
 .content-table thead tr {
-  background-color: #1B998B;
+  background-color: #11AC58;
   color: #ffffff;
   text-align: left;
   font-weight: bold;
@@ -128,7 +128,7 @@ h1 {
 
 .content-table td a {
   text-decoration: none;
-  color: #45474a;
+  color: #1B998B;
 }
 
 .content-table tbody tr {
