@@ -84,15 +84,17 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 1em .5em;
+  color: #45474a;
 }
 
 .content-table {
+  text-align: center;
+  margin-top: 1em;
   border-collapse: collapse;
-  margin: 0 auto;
-  font-size: 0.9em;
   border-radius: 5px 5px 0 0;
   overflow: hidden;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.50);
 }
 
 .content-table thead tr {
@@ -105,6 +107,17 @@ h1 {
 .content-table th,
 .content-table td {
   padding: 12px 15px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.content-table td {
+  text-align: justify;
+}
+
+.content-table td a {
+  text-decoration: none;
+  color: #45474a;
 }
 
 .content-table tbody tr {
@@ -115,9 +128,6 @@ h1 {
   background-color: #f3f3f3;
 }
 
-.content-table tbody tr:last-of-type {
-  border-bottom: 2px solid #009879;
-}
 
 @media only screen and (max-width: 500px) {
   .content {
