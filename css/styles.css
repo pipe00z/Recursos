@@ -17,12 +17,13 @@ body {
   width: 100%;
   text-align: center;
   padding: 1em;
+  padding-top: 2em;
 }
 
 .menu-gallery ul li {
   list-style: none;
   display: inline-block;
-  margin: 15px 10px;
+  margin: 2px 10px;
   padding-right: 5px;
 }
 
@@ -35,16 +36,16 @@ body {
 }
 
 .menu-gallery ul li a:hover {
-  color: green;
+  color: #1B998B;
 }
 .menu-gallery ul li a.active {
-  color: green;
+  color: #1B998B;
 }
 
 .content {
   width: 100%;
   display: inline-block;
-  padding: 80px 0;
+  padding: 2em 2em;
 }
 
 .card {
@@ -57,32 +58,23 @@ body {
 .card img {
   width: 100%;
   height: 100%;
+  display: block;
   object-fit: cover;
 }
 
-.card:hover .post-s {
-  width: 100%;
-}
-
-.post-s {
-  width: 0px;
-  height: 100%;
-  background: rgba(89, 131, 134, 0.71);
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  transition: 0.1s ease;
-  top: 0;
-}
-
-@media only screen and (max-width: 700px) {
+/* Media Queries */
+@media only screen and (max-width: 768px) {
   .card {
     width: 48%;
     float: left;
     margin: 1%;
     cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .content {
+    padding: .5em 1em;
   }
 }
 
