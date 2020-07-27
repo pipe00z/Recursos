@@ -77,6 +77,17 @@ h1 {
   }
 }
 
+
+@media only screen and (max-width: 500px) {
+  .content {
+    padding: .8em .6em;
+  }
+  .header-gallery {
+    padding-top: .5em;
+  }
+}
+
+
 /* Tables */
 
 .resources {
@@ -128,10 +139,4 @@ h1 {
   background-color: #f3f3f3;
 }
 
-
-@media only screen and (max-width: 500px) {
-  .content {
-    padding: .5em 1em;
-  }
-}
 
