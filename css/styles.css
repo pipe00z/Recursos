@@ -92,6 +92,9 @@ h1 {
   .header-gallery {
     padding-top: .5em;
   }
+  .title {
+    padding-top: .5em;
+  }
 }
 
 
@@ -152,7 +155,7 @@ h1 {
   align-items: center;
   justify-content: center;
   height: 3em;
-  width: 5em;
+  width: 4em;
   background-color: #11AC58;
   border-radius: 10px;
 }
