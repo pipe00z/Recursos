@@ -19,6 +19,7 @@ h1 {
 
 .title {
   display: flex;
+  flex-direction: row;
 }
 
 .title img {
@@ -48,10 +49,10 @@ h1 {
 }
 
 .menu-gallery ul li a:hover {
-  color: #1B998B;
+  color: #09BC8A;
 }
 .menu-gallery ul li a.active {
-  color: #1B998B;
+  color: #09BC8A;
 }
 
 .content {
@@ -95,6 +96,9 @@ h1 {
   .title {
     padding-top: .5em;
   }
+  h1 {
+    font-size: 1.8em;
+  }
 }
 
 
@@ -120,7 +124,7 @@ h1 {
 }
 
 .content-table thead tr {
-  background-color: #11AC58;
+  background-color: #09BC8A;
   color: #ffffff;
   text-align: left;
   font-weight: bold;
@@ -156,7 +160,7 @@ h1 {
   justify-content: center;
   height: 3em;
   width: 4em;
-  background-color: #11AC58;
+  background-color: #09BC8A;
   border-radius: 10px;
 }
 .back img{
