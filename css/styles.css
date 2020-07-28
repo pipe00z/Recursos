@@ -18,8 +18,7 @@ h1 {
 }
 
 .title {
-  display: flex;
-  flex-direction: row;
+  display: inline-flex;
 }
 
 .title img {
