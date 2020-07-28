@@ -77,33 +77,6 @@ h1 {
   object-fit: cover;
 }
 
-/* Media Queries */
-@media only screen and (max-width: 768px) {
-  .card {
-    width: 48%;
-    float: left;
-    margin: 1%;
-    cursor: pointer;
-  }
-}
-
-
-@media only screen and (max-width: 500px) {
-  .content {
-    padding: .8em .6em;
-  }
-  .header-gallery {
-    padding-top: .5em;
-  }
-  .title {
-    padding-top: .5em;
-  }
-  h1 {
-    font-size: 1.8em;
-  }
-}
-
-
 /* Tables */
 
 .resources {
@@ -169,3 +142,28 @@ h1 {
   width: 2.5em;
 }
 
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 48%;
+    float: left;
+    margin: 1%;
+    cursor: pointer;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  .content {
+    padding: .8em .6em;
+  }
+  .header-gallery {
+    padding-top: .5em;
+  }
+  .title {
+    padding-top: .5em;
+  }
+  h1 {
+    font-size: 1.8em;
+  }
+}
